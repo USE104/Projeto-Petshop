@@ -27,7 +27,7 @@ server.use(mainRoutes)
 
 //página não encontrada
 server.use((req,res) =>{
-    res.send("Puxa, a Página digitada não existe. Que tal digita com outro nome ?")
+    res.render('pages/404')
 })
 
 
